@@ -3,7 +3,7 @@ layout: post
 title: Première rétrospective Scrum
 category: [Gestion de projet, Enseignement]
 tags: [Scrum, Rétrospective]
-published: true 
+published: false
 --- 
 
 Dernièrement, j'ai lu
