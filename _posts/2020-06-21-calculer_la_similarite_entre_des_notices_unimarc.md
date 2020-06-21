@@ -291,7 +291,7 @@ marge pour améliorer l'algorithme !
 
 Voici la version complète du script, sous forme de [Gist sur
 GitHub](https://gist.github.com/edipretoro/37c843fc25760e2f2845f9cd45162ffb).
-Un outil en 60 lignes de Python qui permet de se faire une première
+Un outil en moins de 100 lignes de Python qui permet de se faire une première
 idée des similitudes entre notices bibliographiques, que ce soit pour
 se faciliter la vie en matière de correction, ou pour détecter
 d'éventuels plagiats.
