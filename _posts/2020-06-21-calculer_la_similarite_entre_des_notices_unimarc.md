@@ -275,7 +275,7 @@ présentées plus haut :
 Et le résultat :
 
 ``` text
-Similarity between corrige_sample_01.mrc and psc3-2017a-amelioration_notice_01.mrc is 20.88%
+Similarity between corrige_sample_01.mrc and exemple_sample_01.mrc is 20.88%
 ```
 
 Comme vous pouvez le constater, le score obtenu est assez bas. C'est
@@ -283,7 +283,7 @@ logique dans la mesure où la notice de la BnF est bien plus complète.
 Voici le résultat si la comparaison se fait dans l'autre sens :
 
 ``` text
-Similarity between psc3-2017a-amelioration_notice_01.mrc and corrige_sample_01.mrc is 61.40%
+Similarity between exemple_sample_01.mrc and corrige_sample_01.mrc is 61.40%
 ```
 
 Pour une première exploration, ce n'est pas si mal. Et il y a de la
