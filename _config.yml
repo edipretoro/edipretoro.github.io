@@ -11,7 +11,7 @@ email: edipretoro@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://edipretoro.github.io" # the base hostname & protocol for your site
+url: "https://blog.edipretoro.dev" # the base hostname & protocol for your site
 twitter_username: edipretoro
 github_username: edipretoro
 
