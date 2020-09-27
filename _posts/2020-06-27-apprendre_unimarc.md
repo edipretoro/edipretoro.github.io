@@ -4,6 +4,7 @@ title: Un petit outil pour apprendre l'UNIMARC
 category: [Informatique documentaire]
 tags: [Catalographie, UNIMARC, Python, Anki]
 published: true
+comments: true
 --- 
 
 Je n'ai pas nécessairement pris la peine lors du dernier billet
