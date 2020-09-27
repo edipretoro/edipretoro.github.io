@@ -12,4 +12,11 @@ layout: default
     {{ content }}
   </div>
 
+
+  {% if page.comments != false %}
+  <script defer src="https://commento.edipretoro.be/js/commento.js"></script>
+  <div id="commento"></div>
+  <noscript>Please enable JavaScript to view the <a href="https://commento.io/?ref_noscript">comments powered by Commento.</a></noscript>
+  {% endif %}
+
 </article>
