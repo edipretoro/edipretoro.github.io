@@ -4,6 +4,7 @@ title: Calculer la similarité entre des notices UNIMARC (Partie 1)
 category: [Informatique documentaire]
 tags: [Catalographie, UNIMARC, Python]
 published: true
+comments: true
 --- 
 
 Début de la semaine, je discutais avec un ancien collègue des
