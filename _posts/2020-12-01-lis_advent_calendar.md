@@ -27,7 +27,7 @@ seront tirés de mon expérience professionnelle, et iront de
 l'explication d'un outil à la présentation d'un algorithme.
 
 Et après ces quelques mots d'introduction, il est temps de passer au
-premier article de ce calendrier : *l'échantillonage d'un jeu de
+premier article de ce calendrier : *l'échantillonnage d'un jeu de
 données*. 
 
 ## Échantillons!
@@ -92,9 +92,9 @@ trouverez dans l'[article
 Wikipedia](https://en.wikipedia.org/wiki/Reservoir_sampling) d'autres
 implémentations plus performantes. 
 
-Pour revenir à l'anecdocte initiale, à savoir un jeu de données de
-taille importante, je devait donc trouver un moyen efficace
-d'échantillonner avec l'outil que j'utilise habituellement pour
+Pour revenir à l'anecdote initiale, à savoir un jeu de données de
+taille importante, je devais donc trouver un moyen efficace
+de créer un échantillon avec l'outil que j'utilise habituellement pour
 manipuler des données catalographiques, à savoir
 [Catmandu](https://librecat.org/). Mais n'ayant pas trouvé l'outil *ad
 hoc*, j'ai fini par implémenter un *exporter* réalisant ce travail :
@@ -138,10 +138,11 @@ sub commit {
 1;
 ```
 
-Je n'ai pas eu à réimplémenter l'algorithme d'échantillonage puisqu'un
-module le faisait déjà : `Algorithm::Numerical::Sample`. 
+Je n'ai pas eu à implémenter l'algorithme d'échantillonage puisqu'un
+module le faisait déjà :
+[`Algorithm::Numerical::Sample`](https://metacpan.org/pod/Algorithm::Numerical::Sample).
 
-Quelques lignes de code, et je pouvait lancer une commande comme :
+Quelques lignes de code, et je pouvais lancer une commande comme :
 
 ```shell
 catmandu convert MARC --file big_data.mrc --type ISO --encoding utf-8
