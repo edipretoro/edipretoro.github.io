@@ -138,7 +138,7 @@ sub commit {
 1;
 ```
 
-Je n'ai pas eu à implémenter l'algorithme d'échantillonage puisqu'un
+Je n'ai pas eu à implémenter l'algorithme d'échantillonnage puisqu'un
 module le faisait déjà :
 [`Algorithm::Numerical::Sample`](https://metacpan.org/pod/Algorithm::Numerical::Sample).
 
