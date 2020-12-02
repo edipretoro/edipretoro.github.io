@@ -4,7 +4,7 @@ title: Migrons des données !
 category: [LIS Advent Calendar]
 tags: [Catmandu, Migration]
 published: true
-comments: false
+comments: true
 --- 
 
 S'il y a bien une opération que j'ai été amenée à réaliser
