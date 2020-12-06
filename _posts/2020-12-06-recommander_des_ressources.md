@@ -8,16 +8,16 @@ comments: true
 --- 
 
 Un service qui m'a souvent manqué dans mes interactions avec les
-catalogues de bibliothèque, est une recommandation des livres qui
+catalogues de bibliothèque est une recommandation des livres qui
 pourraient m'intéresser sur base de mes prêts passés. Cela permet de
-découvrir des livres qui pourraient nous avoir échapper, et j'utilise
+découvrir des livres qui pourraient nous avoir échappé, et j'utilise
 assez souvent cette fonctionnalité sur [Babelio](http://babelio.com/)
 pour trouver ma prochaine lecture. 
 
-Dans le cadre de cette article, je vais m'appuyer sur le code
-provenant d'un livre : [*Programming Collective
+Dans le cadre de cet article, je vais m'appuyer sur le code provenant
+d'un livre : [*Programming Collective
 Intelligence*](https://www.goodreads.com/book/show/1741472.Programming_Collective_Intelligence)
-de Toby Segaran. 
+de Toby Segaran.
 
 ## Les données
 
@@ -143,11 +143,11 @@ def getRecommendations(loans, patron, similarity=sim_pearson):
 Le principe de cette fonction est de prendre les données présentées au
 début de l'article, et pour chaque lecteur, d'en calculer la
 similarité avec l'utilisateur passer en argument. Ensuite, pour chaque
-resource des autres lecteurs que n'a pas été emprunté par notre
+ressource des autres lecteurs que n'a pas été emprunté par notre
 utilisateur, nous calculerons deux valeurs :
 
-1. L'intérêt du lien : la somme des classements (le fameuse valeur *1*
-   à coté du titre) multiplié par la similarité de lecteur ;
+1. L'intérêt du lien : la somme des classements (la fameuse valeur *1*
+   à côté du titre) multipliée par la similarité de lecteur ;
 2. La somme totale des similarités par lien. 
 
 Nous calculons ensuite un classement en divisant l'intérêt du lien par
