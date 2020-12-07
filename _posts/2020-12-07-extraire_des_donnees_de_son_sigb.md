@@ -28,7 +28,7 @@ La première étape consiste à prendre le temps de connaître son SIGB,
 et d'en lire sa documentation technique. Dans mon cas, je travaillais
 sur un [PMB](https://www.sigb.net), et la base de données est
 documentée. J'ignore si cette documentation est à jour, mais elle m'a
-suffit.
+suffi.
 
 ## Choix des outils
 
@@ -156,11 +156,10 @@ cas, `PMBOrm`. Chaque classe doit renseigner la table du schéma via un
 attribut `__tablename__` et doit définir à minima une clé
 primaire. Les colonnes de la table sont décrites via la fonction
 `Column()`. Je peux ensuite ajouter des méthodes à ces classes, comme
-par exemple `full_name()` qui me permet d'avoir le nom complet d'un
-usager.
+`full_name()` qui me permet d'avoir le nom complet d'un usager.
 
 Dans le cas de ce *mapping*, je me suis volontairement limité dans le
-nombre de colonnes gérés par tables. Et j'en ai profité pour donner
+nombre de colonnes gérées par tables. Et j'en ai profité pour donner
 des noms plus explicites à certaines colonnes : `tit1` → *main_title*,
 `tit3` → *parallel_title*, etc. 
 
@@ -207,7 +206,7 @@ if __name__ == "__main__":
 
 La première partie du script consiste en l'importation des différents
 modules nécessaires (les `import`s et les `from`s). Puis le script
-établit une connexion avec le SGBD, et le traitement peux finalement
+établit une connexion avec le SGBD, et le traitement peut finalement
 commencer :
 
 * Nous récupérons tous les lecteurs ;
@@ -216,6 +215,6 @@ commencer :
   
 Et enfin, nous affichons les données. 
 
-Voici un exemple, au final assez simple, pour extraire des données
-d'un SIGB, et ainsi exploiter les données précieuses contenues dans ce
-dernier.
+Voici un exemple, au final assez simple, d'extraction de données d'un
+SIGB, qui nous permet ainsi exploiter les données précieuses contenues
+dans ce dernier.
