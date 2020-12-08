@@ -176,7 +176,7 @@ similarités du texte.
 Voici le code permettant de calculer la similarité entre deux notices
 :
 
-``` python
+```python
 from typing import Callable, Iterable, Tuple
 import jellyfish
 import pymarc
@@ -236,7 +236,7 @@ Voici un utilitaire en ligne de commande qui affichera le percentage
 de similarité entre une notice servant de référence et d'autres
 notices :
 
-``` python
+```python
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser(description=__doc__)
     arg_parser.add_argument(

@@ -111,7 +111,7 @@ framework_DEFAULT.sql`.
 J'ai ensuite créé les classes *SQLAlchemy* nécessaires pour accéder à
 la base de données :
 
-``` python
+```python
 from sqlalchemy import Column, Text, Integer
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -161,7 +161,7 @@ transformer.
 
 Commençons par importer les modules nécessaires :
 
-``` python
+```python
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from unimarc2anki.db import Field, SubField
@@ -174,13 +174,13 @@ mentionnées plus haut.
 
 Créons un identifiant aléatoire pour notre *modèle* :
 
-``` python
+```python
 model_id = random.randrange(1 << 30, 1 << 31)
 ```
 
 Et créons le modèle pour nos *flashcards* :
 
-``` python
+```python
 model = genanki.Model(
     model_id,
     "Révision des champs et sous-champs d'UNIMARC",
@@ -200,13 +200,13 @@ model = genanki.Model(
 
 Créons un identifiant aléatoire pour notre *deck* :
 
-``` python
+```python
 deck_id = random.randrange(1 << 30, 1 << 31)
 ```
 
 Et créons le *deck* :
 
-``` python
+```python
 deck = genanki.Deck(
     deck_id,
     "Révision des champs et sous-champs d'UNIMARC"
@@ -215,7 +215,7 @@ deck = genanki.Deck(
 
 Connectons-nous à la base de données créée précédemment :
 
-``` python
+```python
 e = create_engine('sqlite:///./data/koha_unimarc.db', echo=True)
 Session = sessionmaker(bind=e)
 s = Session()
@@ -223,7 +223,7 @@ s = Session()
 
 Nous pouvons maintenant traiter les champs...
 
-``` python
+```python
 for i in fields:
     # Knowing the label
     note = genanki.Note(
@@ -249,7 +249,7 @@ for i in fields:
 
 ... et les sous-champs :
 
-``` python
+```python
 subfields = s.query(SubField)
 for i in subfields:
     # Knowing the label
@@ -287,7 +287,7 @@ L'algorithme est le même pour les champs et les sous-champs :
 Notre script est bientôt fini puisqu'il ne nous reste plus qu'à écrire
 le *deck* dans un fichier :
 
-``` python
+```python
 genanki.Package(deck).write_to_file('unimarc.apkg')
 ```
 
