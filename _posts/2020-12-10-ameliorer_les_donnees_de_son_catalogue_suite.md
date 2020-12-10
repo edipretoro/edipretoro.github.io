@@ -53,7 +53,7 @@ def ngram_fingerprint(value, n=2):
     value = unidecode.unidecode(value)
     value = sorted(set(nltk.ngrams(value, n)))
 
-	return "".join(["".join(ngram) for ngram in value])
+    return "".join(["".join(ngram) for ngram in value])
 ```
 
 La fonction est quasiment la même, si ce n'est la suppression des
