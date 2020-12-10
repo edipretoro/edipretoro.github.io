@@ -16,7 +16,7 @@ d'[OpenRefine](https://openrefine.org/), s'appuyant sur des
 
 ## Des *n-grams* ? ...
 
-Les *n-grams* sont une liste des séquences de sous-chaîne de
+Les *n-grams* sont une liste des séquences de sous-chaînes de
 caractères de taille *n* présents dans une chaîne de caractères. Par
 exemple, avec « Sciences de l'information », nous aurons :
 
@@ -141,11 +141,11 @@ We have 21 authors possibly duplicated.
 Les *n-grams* de taille 2 trouvent moins de doublons, mais en trouve
 de nouveau, comme l'exemple donné. Les deux méthodes sont donc très
 complémentaires. Il y aura moyen également de changer la taille des
-*n-grams* généré. Par exemple, avec des *n-grams* de taille 1, l'outil
-a identifié 2051 doublons potentiels. Un rapide coup d'œil sur ces
-derniers m'ont permis d'identifier pas mal de faux positifs.
+*n-grams* générés. Par exemple, avec des *n-grams* de taille 1,
+l'outil a identifié 2051 doublons potentiels. Un rapide coup d'œil sur
+ces derniers m'a permis d'identifier pas mal de faux positifs.
 
-Par curiosité, j'ai rapidement créer les scripts nécessaires pour
+Par curiosité, j'ai rapidement créé les scripts nécessaires pour
 traiter les éditeurs et les collections, voici un tableau récapitulant
 les résultats :
 
