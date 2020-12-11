@@ -45,7 +45,7 @@ Cette configuration, utilisant l'option `navigate` va utiliser
 [`pyppeteer`](https://pypi.org/project/pyppeteer/) pour récupérer la
 page web avec la version *headless* de Google Chrome. De cette
 manière, la page est chargée avec un navigateur qui interprétera
-l'éventuel JavaScript. Cette page sera ensuite stockée et comparer
+l'éventuel JavaScript. Cette page sera ensuite stockée et comparée
 d'une exécution d'`urlwatch` à l'autre avec une méthode équivalente à
 l'outil `diff`, bien connu des programmeurs. Voici un exemple de
 résultat : 
@@ -91,7 +91,7 @@ titres de niveau 1.
 
 ## Encore un autre exemple : surveiller un fichier PDF
 
-Pour cette configuration, je n'ai pas d'exemple concret car je ne l'ai
+Pour cette configuration, je n'ai pas d'exemple concret, car je ne l'ai
 pas encore utilisé pour mes propres besoins. Mais je sais que la
 fonctionnalité est utile, par exemple pour surveiller des textes
 normatifs. Voici l'[exemple de la configuration du
@@ -112,8 +112,8 @@ Pour que cela fonctionne, il faut installer d'autres logiciels
 ## Et ainsi de suite...
 
 L'outil est vraiment chouette et tout son potentiel réside dans le
-fait qu'il peut analyser n'importe quelle texte produit par un
-logiciel, que ce texte soit une page web, une liste de fichiers
-présents dans un répertoire, etc. La documentation est bien construite
-et de nombreux exemples sont disponibles pour mettre en place ses
-propres surveillances.
+fait qu'il peut analyser n'importe quel texte produit par un logiciel,
+que ce texte soit une page web, une liste de fichiers présents dans un
+répertoire, etc. La documentation est bien construite et de nombreux
+exemples sont disponibles pour mettre en place ses propres
+surveillances.
