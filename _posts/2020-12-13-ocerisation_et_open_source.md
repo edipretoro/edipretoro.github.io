@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Océrisation et *open source*
+title: Océrisation et open source
 category: [LIS Advent Calendar]
 tags: [Python, OCR]
 published: true
