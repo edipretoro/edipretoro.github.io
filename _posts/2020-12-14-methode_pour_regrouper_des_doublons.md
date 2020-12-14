@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Une méthode pour regroupe de potentiels doublons
+title: Une méthode pour pré-traiter un jeu de données avant un dédoublonnage
 category: [LIS Advent Calendar]
 tags: [Python, Algorithme, Data Matching]
 published: true
