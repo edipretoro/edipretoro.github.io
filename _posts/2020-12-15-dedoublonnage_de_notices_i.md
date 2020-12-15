@@ -177,9 +177,9 @@ Comme vous pouvez le voir, il y a des avantages :
 * Les deux niveaux des BibHash sont faciles à calculer. 
 
 Mais nous pouvons également voir que les règles de formatage du titre
-ou des auteurs influence le résultat final, et génère ainsi des faux
-négatifs. Mais ce problème devrai être assez limité au sein d'un même
-catalogue, pour autant que les règles soient appliquées de manière
-cohérente. Il faut aussi signaler que si les données sont extraites
-d'un catalogue, il est alors possible de normaliser en amont les
-données avant de les soumettre à l'algorithme. 
+ou des auteurs influencent le résultat final, et génèrent ainsi des
+faux négatifs. Mais ce problème devrait être assez limité au sein d'un
+même catalogue, pour autant que les règles soient appliquées de
+manière cohérente. Il faut aussi signaler que si les données sont
+extraites d'un catalogue, il est alors possible de normaliser en amont
+les données avant de les soumettre à l'algorithme.
