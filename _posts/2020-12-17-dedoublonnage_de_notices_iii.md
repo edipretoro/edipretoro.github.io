@@ -181,7 +181,7 @@ class USBC:
             return "00"
 
     def computed_check_digit(self):
-        pass
+        pass  # We don't need it for this example
 
     def get_usbc(self):
         usbc = ""
