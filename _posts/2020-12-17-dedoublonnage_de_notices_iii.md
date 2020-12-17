@@ -16,7 +16,7 @@ l'*Universal Standard Book Code* (USBC).
 ## L'algorithme
 
 Comme pour le *BibHash*, l'idée est de produire une clé sur base de
-propriétés d'une notice catalographie. Dans
+propriétés d'une notice catalographique. Dans
 l'[article](https://academic.oup.com/comjnl/article/23/1/53/676846)
 utilisé pour l'implémentation, les champs suivants sont utilisés : 
 
@@ -29,12 +29,12 @@ utilisé pour l'implémentation, les champs suivants sont utilisés :
 Certains principes se dégagent aussi de l'article :
 
 * Une clé se compose de différentes parties ;
-* Chaque partie vient d'un champ différents ;
+* Chaque partie vient d'un champ différent ;
 * Chaque partie ne conserve que la partie la plus discriminante ; cela
   signifie par exemple que pour une date, 1990, nous ne conserverons
   que les trois derniers chiffres : 990. Et quand il s'agira de
-  caractères alphabétiques, nous ne garderons les lettres les moins
-  fréquentes. 
+  caractères alphabétiques, nous ne garderons que les lettres les
+  moins fréquentes.
 
 ## L'implémentation
 
@@ -269,14 +269,15 @@ book4: Schismatrice + → 29985AEHMRTCI00000
 
 Nous pouvons voir que *book1*, *book2* et *book3* ont la même
 clé. Évidemment, dans cet exemple, je n'ai pas d'éditeur commercial,
-mais le fait d'utiliser les lettres les moins présentes, et donc les
-plus discriminantes, font que je suis quasiment certains que des
-versions différentes du même éditeur produirons la même sous-clé. Et
-si ce n'est pas le cas, les clés USBC complètes seront alors très
-similaires, et les *SimHashes* les regrouperont très facilement.
+mais l'utilisation des lettres les moins présentes, et donc les plus
+discriminantes, pour constituer ce sous-code fait que je suis quasiment
+certain que des versions différentes du même éditeur produiront la
+même sous-clé. Et si ce n'est pas le cas, les clés USBC complètes
+seront alors très similaires, et les *SimHashes* les regrouperont très
+facilement.
 
 Voici la fin de notre petite série de billets sur le dédoublonnage, en
-tout cas dans le cadre de ce calendrier de l'Avant de l'informatique
-documentaire, et il n'y évidemment pas de solutions miracles, et si je
+tout cas dans le cadre de ce calendrier de l'Avent de l'informatique
+documentaire, et il n'y a évidemment pas de solutions miracles, et si je
 devais dédoublonner un fonds documentaire demain, j'utiliserais
 probablement une combinaison de ces méthodes.
