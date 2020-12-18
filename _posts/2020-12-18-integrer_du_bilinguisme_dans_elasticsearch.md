@@ -165,34 +165,34 @@ En termes de fonctionnement :
 1. L'outil travaille à partir d'un thésaurus SKOS au format Turtle ;
    voici à quoi cela peut ressembler : 
    
-```text
-thesaurus:91321 a skos:Concept ;
-    skos:broader thesaurus:93681 ;
-    skos:narrower thesaurus:86495 ;
-    skos:narrower thesaurus:87274 ;
-    skos:narrower thesaurus:86627 ;
-    skos:narrower thesaurus:82401 ;
-    skos:narrower thesaurus:91971 ;
-    skos:narrower thesaurus:86631 ;
-    skos:narrower thesaurus:82073 ;
-    skos:exactMatch thesaurus:93296 ;
-    skos:prefLabel "rue"@fr .
-
-thesaurus:93296 a skos:Concept ;
-    skos:broader thesaurus:90551 ;
-    skos:narrower thesaurus:90560 ;
-    skos:narrower thesaurus:91155 ;
-    skos:narrower thesaurus:21429 ;
-    skos:narrower thesaurus:90998 ;
-    skos:narrower thesaurus:92903 ;
-    skos:narrower thesaurus:91952 ;
-    skos:narrower thesaurus:92396 ;
-    skos:narrower thesaurus:88641 ;
-    skos:narrower thesaurus:103116 ;
-    skos:exactMatch thesaurus:91321 ;
-    skos:relatedMatch thesaurus:3582 ;
-    skos:prefLabel "straat"@nl .
-```
+   ```text
+   thesaurus:91321 a skos:Concept ;
+skos:broader thesaurus:93681 ;
+        skos:narrower thesaurus:86495 ;
+        skos:narrower thesaurus:87274 ;
+        skos:narrower thesaurus:86627 ;
+        skos:narrower thesaurus:82401 ;
+        skos:narrower thesaurus:91971 ;
+        skos:narrower thesaurus:86631 ;
+        skos:narrower thesaurus:82073 ;
+        skos:exactMatch thesaurus:93296 ;
+        skos:prefLabel "rue"@fr .
+ 
+    thesaurus:93296 a skos:Concept ;
+skos:broader thesaurus:90551 ;
+         skos:narrower thesaurus:90560 ;
+         skos:narrower thesaurus:91155 ;
+         skos:narrower thesaurus:21429 ;
+         skos:narrower thesaurus:90998 ;
+         skos:narrower thesaurus:92903 ;
+         skos:narrower thesaurus:91952 ;
+         skos:narrower thesaurus:92396 ;
+         skos:narrower thesaurus:88641 ;
+         skos:narrower thesaurus:103116 ;
+         skos:exactMatch thesaurus:91321 ;
+         skos:relatedMatch thesaurus:3582 ;
+         skos:prefLabel "straat"@nl .
+    ```
 
 2. Je crée un graphe avec
    [*RDFLib*](https://rdflib.readthedocs.io/en/stable/) sur base de ce
