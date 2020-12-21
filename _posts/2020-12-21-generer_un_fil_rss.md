@@ -17,15 +17,15 @@ web.
 
 Si la majorité des sites web offre des fils RSS, ce n'est pas
 nécessairement le cas de tous. Ou alors, la partie du site web qui
-vous intéresse n'est pas présent dans le fil RSS. Une solution
+vous intéresse n'est pas présente dans le fil RSS. Une solution
 consiste alors à écrire un outil qui récupère la page, l'analyse et en
 extrait les parties intéressantes. 
 
 Pour ce billet, je vais utiliser [Lirtuel](http://www.lirtuel.be/) qui
 offre effectivement un [fil
 RSS](http://www.lirtuel.be/resource_feeds/recent_feed.atom) pour les
-acquisitions récentes, mais qui n'en offre pas pour une recherche dans
-l'outil, ou pour une catégorie de livres. 
+acquisitions récentes, mais n'en offre maleheureusement pas pour une
+recherche dans l'outil, ou pour une catégorie de livres.
 
 ## Le code
 
@@ -162,3 +162,5 @@ qui produit le fichier suivant :
 </feed>
 ```
 
+Je peux maintenant ajouter ce fil RSS dans ma veille et être sûr de ne
+pas rater une nouveauté qui m'intéresserait.
