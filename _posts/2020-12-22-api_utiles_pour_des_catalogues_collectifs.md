@@ -20,5 +20,12 @@ qui se propose justement de résoudre ce problème :
   [*Plack::App::DAIA*](https://metacpan.org/pod/Plack::App::DAIA) et
   côté client avec [*DAIA*](https://metacpan.org/pod/DAIA). 
   
-Le protocole est assez simple à implémenter pour le SIGB de votre
-choix. 
+Une autre API utile pour les catalogues collectifs et en lien avec les
+informations du lecteur est [*Patrons Account Information API*
+(PAIA)](https://gbv.github.io/paia/paia.html) dont une implémentation
+est également disponible :
+<https://metacpan.org/pod/distribution/App-PAIA/bin/paia>.
+
+Ces protocoles sont assez simples à implémenter pour le SIGB de votre
+choix.
+
