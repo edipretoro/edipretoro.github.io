@@ -2,7 +2,7 @@
 layout: post
 title: Une autre technologie pour créer un système de recommandation
 category: [LIS Advent Calendar]
-tags: [Neo4j, Graphe, Python, Systèmed de recommandation]
+tags: [Neo4j, Graphe, Python, Système de recommandation]
 published: true
 comments: true
 ---
