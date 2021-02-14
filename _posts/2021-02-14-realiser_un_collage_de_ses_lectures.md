@@ -115,6 +115,6 @@ plt.savefig("collage_covers.png", bbox_inches='tight')
 
 Ce qui me donne l'image suivante : 
 
-![Livres lus en 2020](/asseets/img/collage_covers-2020.png)
+![Livres lus en 2020](/assets/img/collage_covers-2020.png)
 
 ce qui me fera une photo de profil idéale pour Babelio :D
