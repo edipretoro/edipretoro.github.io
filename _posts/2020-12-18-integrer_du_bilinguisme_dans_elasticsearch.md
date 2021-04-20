@@ -15,7 +15,7 @@ résultats de recherche.
 
 [Elasticsearch](https://www.elastic.co/) est une base de données
 orientée document qui s'appuie sur
-[Solr](https://lucene.apache.org/solr/) et qui se positionne comme un
+[Lucene](https://lucene.apache.org/) et qui se positionne comme un
 moteur de recherche et d'analyse pour entreprise. Ce logiciel est
 particulièrement intéressant pour offrir des recherches en texte
 intégral pour des bibliothèques numériques.
